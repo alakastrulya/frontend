@@ -1,0 +1,707 @@
+{
+  "categories": [
+    {
+      "id": "1",
+      "name": "Repair, Installation, Finishing"
+    },
+    {
+      "id": "2",
+      "name": "Construction"
+    },
+    {
+      "id": "3",
+      "name": "Appliance Repair and Installation"
+    },
+    {
+      "id": "4",
+      "name": "Beauty and Health"
+    },
+    {
+      "id": "5",
+      "name": "IT and Freelance"
+    },
+    {
+      "id": "6",
+      "name": "Education and Tutoring"
+    },
+    {
+      "id": "7",
+      "name": "Photography and Videography"
+    },
+    {
+      "id": "8",
+      "name": "Gardening and Landscaping"
+    },
+    {
+      "id": "9",
+      "name": "Fitness and Personal Training"
+    },
+    {
+      "id": "10",
+      "name": "Event Planning and Catering"
+    }
+  ],
+  "services": [
+    {
+      "id": "1",
+      "categoryId": "1",
+      "name": "Drywall Installation"
+    },
+    {
+      "id": "2",
+      "categoryId": "1",
+      "name": "Tile Laying"
+    },
+    {
+      "id": "3",
+      "categoryId": "1",
+      "name": "Plumbing Repair"
+    },
+    {
+      "id": "4",
+      "categoryId": "2",
+      "name": "Turnkey House Construction"
+    },
+    {
+      "id": "5",
+      "categoryId": "2",
+      "name": "Cottage Design and Build"
+    },
+    {
+      "id": "6",
+      "categoryId": "3",
+      "name": "Washing Machine Repair"
+    },
+    {
+      "id": "7",
+      "categoryId": "3",
+      "name": "Air Conditioner Installation"
+    },
+    {
+      "id": "8",
+      "categoryId": "3",
+      "name": "Refrigerator Repair"
+    },
+    {
+      "id": "9",
+      "categoryId": "4",
+      "name": "Manicure and Pedicure"
+    },
+    {
+      "id": "10",
+      "categoryId": "4",
+      "name": "Skincare Treatments"
+    },
+    {
+      "id": "11",
+      "categoryId": "5",
+      "name": "Frontend Development"
+    },
+    {
+      "id": "12",
+      "categoryId": "5",
+      "name": "Backend Development"
+    },
+    {
+      "id": "13",
+      "categoryId": "6",
+      "name": "Math Tutoring"
+    },
+    {
+      "id": "14",
+      "categoryId": "6",
+      "name": "English Language Teaching"
+    },
+    {
+      "id": "15",
+      "categoryId": "7",
+      "name": "Event Photography"
+    },
+    {
+      "id": "16",
+      "categoryId": "7",
+      "name": "Wedding Videography"
+    },
+    {
+      "id": "17",
+      "categoryId": "8",
+      "name": "Lawn Care"
+    },
+    {
+      "id": "18",
+      "categoryId": "8",
+      "name": "Landscape Design"
+    },
+    {
+      "id": "19",
+      "categoryId": "9",
+      "name": "Personal Training"
+    },
+    {
+      "id": "20",
+      "categoryId": "9",
+      "name": "Yoga Instruction"
+    },
+    {
+      "id": "21",
+      "categoryId": "10",
+      "name": "Event Planning"
+    },
+    {
+      "id": "22",
+      "categoryId": "10",
+      "name": "Catering Services"
+    }
+  ],
+  "specialists": [
+    {
+      "id": "1",
+      "serviceIds": [
+        "1"
+      ],
+      "name": "Michael Brown",
+      "contact": "+1 (555) 123-4567",
+      "description": "Specialist in drywall installation, 10 years of experience.",
+      "password": "$2b$10$in0XJixoe9tx0tNF3o8DTOs8mKjlSQH8X97o7euo6JonyQWb2Zyde",
+      "resumeFile": null,
+      "avatarFile": null,
+      "isVerified": false,
+      "isActive": true
+    },
+    {
+      "id": "2",
+      "serviceIds": [
+        "2"
+      ],
+      "name": "Sophie Davis",
+      "contact": "+1 (555) 234-5678",
+      "description": "Expert in tile laying.",
+      "password": "$2b$10$in0XJixoe9tx0tNF3o8DTOf9bEkgq6u1/4rNfYgVvVw2bop5K5r6a",
+      "resumeFile": null,
+      "avatarFile": null,
+      "isVerified": false,
+      "isActive": true
+    },
+    {
+      "id": "3",
+      "serviceIds": [
+        "4"
+      ],
+      "name": "Liam Wilson",
+      "contact": "+1 (555) 345-6789",
+      "description": "Construction of turnkey houses, 15 years of experience.",
+      "password": "$2b$10$Z7XtucS6Qi7C5Qs8V2lluO82mnBeUJfqECS9ovkHQ9B65fDVWVqLm",
+      "resumeFile": null,
+      "avatarFile": null,
+      "isVerified": false,
+      "isActive": true
+    },
+    {
+      "id": "4",
+      "serviceIds": [
+        "5"
+      ],
+      "name": "Emma Taylor",
+      "contact": "+1 (555) 456-7897",
+      "description": "Design and construction of cottages.",
+      "password": "$2b$10$in0XJixoe9tx0tNF3o8DTOXuArEhHiuJTi8CYETv6vVQ/pJ91w01m",
+      "resumeFile": null,
+      "avatarFile": null,
+      "isVerified": false,
+      "isActive": true
+    },
+    {
+      "id": "5",
+      "serviceIds": [
+        "6"
+      ],
+      "name": "David Harris",
+      "contact": "+1 (555) 567-8901",
+      "description": "Repairs washing machines.",
+      "password": "$2b$10$in0XJixoe9tx0tNF3o8DTOyWyoAoac07XbpckuMSUmYkmaEFbBlti",
+      "resumeFile": null,
+      "avatarFile": null,
+      "isVerified": false,
+      "isActive": true
+    },
+    {
+      "id": "6",
+      "serviceIds": [
+        "7"
+      ],
+      "name": "Olivia Clark",
+      "contact": "+1 (555) 678-9012",
+      "description": "Installation and setup of air conditioners.",
+      "password": "$2b$10$in0XJixoe9tx0tNF3o8DTOr9yrRla6ABQpLKUN9JiTnbeI/2EnHa2",
+      "resumeFile": null,
+      "avatarFile": null,
+      "isVerified": false,
+      "isActive": true
+    },
+    {
+      "id": "7",
+      "serviceIds": [
+        "9"
+      ],
+      "name": "Ava Lewis",
+      "contact": "+1 (555) 789-0123",
+      "description": "Nail technician, manicure and pedicure, works from home.",
+      "password": "$2b$10$in0XJixoe9tx0tNF3o8DTOtqRNoA02SMKJTdL96xmioQjFNrlEixi",
+      "resumeFile": null,
+      "avatarFile": null,
+      "isVerified": false,
+      "isActive": true
+    },
+    {
+      "id": "8",
+      "serviceIds": [
+        "10"
+      ],
+      "name": "Isabella Walker",
+      "contact": "+1 (555) 890-1234",
+      "description": "Cosmetologist, specializing in skincare treatments.",
+      "password": "$2b$10$in0XJixoe9tx0tNF3o8DTOnuZEP1xu2oRcFUB91hz.CU3z8HBe9om",
+      "resumeFile": null,
+      "avatarFile": null,
+      "isVerified": false,
+      "isActive": true
+    },
+    {
+      "id": "9",
+      "serviceIds": [
+        "11"
+      ],
+      "name": "Ethan Moore",
+      "contact": "+1 (555) 901-2345",
+      "description": "Frontend developer, specializing in React and JavaScript.",
+      "password": "$2b$10$in0XJixoe9tx0tNF3o8DTOizOdSpTwSyHM.V6/QzYWrNjQOZpKktC",
+      "resumeFile": null,
+      "avatarFile": null,
+      "isVerified": false,
+      "isActive": true
+    },
+    {
+      "id": "10",
+      "serviceIds": [
+        "12"
+      ],
+      "name": "Noah Allen",
+      "contact": "+1 (555) 012-3456",
+      "description": "Backend developer, proficient in Python and Django.",
+      "password": "$2b$10$in0XJixoe9tx0tNF3o8DTOqfiYj2LPNyHn55Z.vx3M2XI05iwUyjq",
+      "resumeFile": null,
+      "avatarFile": null,
+      "isVerified": false,
+      "isActive": true
+    },
+    {
+      "id": "11",
+      "serviceIds": [
+        "13"
+      ],
+      "name": "Chloe Evans",
+      "contact": "+1 (555) 123-4567",
+      "description": "Math tutor with 5 years of experience.",
+      "password": "$2b$10$in0XJixoe9tx0tNF3o8DTOPK12lTBWHbTOi.PBLnRg7UlvwqG/K86",
+      "resumeFile": null,
+      "avatarFile": null,
+      "isVerified": false,
+      "isActive": true
+    },
+    {
+      "id": "12",
+      "serviceIds": [
+        "14"
+      ],
+      "name": "Lucas Wright",
+      "contact": "+1 (555) 234-5678",
+      "description": "English language teacher for all ages.",
+      "password": "$2b$10$in0XJixoe9tx0tNF3o8DTOs/8K3AUb4oAQ0ghFM8wJSqTkfbWeiri",
+      "resumeFile": null,
+      "avatarFile": null,
+      "isVerified": false,
+      "isActive": true
+    },
+    {
+      "id": "13",
+      "serviceIds": [
+        "15"
+      ],
+      "name": "Mason King",
+      "contact": "+1 (555) 345-6789",
+      "description": "Professional photographer for events and portraits.",
+      "password": "$2b$10$in0XJixoe9tx0tNF3o8DTON16igw9AVlN.GSw3LKJ2WQEmtgyIat.",
+      "resumeFile": null,
+      "avatarFile": null,
+      "isVerified": false,
+      "isActive": true
+    },
+    {
+      "id": "14",
+      "serviceIds": [
+        "16"
+      ],
+      "name": "Harper Lee",
+      "contact": "+1 (555) 456-7890",
+      "description": "Videographer specializing in weddings and documentaries.",
+      "password": "$2b$10$in0XJixoe9tx0tNF3o8DTOIG9ZfySfPLsuBmvXWbWUM8NOQi/SloC",
+      "resumeFile": null,
+      "avatarFile": null,
+      "isVerified": false,
+      "isActive": true
+    },
+    {
+      "id": "15",
+      "serviceIds": [
+        "17"
+      ],
+      "name": "Evelyn Scott",
+      "contact": "+1 (555) 567-8901",
+      "description": "Gardening expert, lawn care and planting services.",
+      "password": "$2b$10$in0XJixoe9tx0tNF3o8DTOlhDRyBo/yFoiN/t4.W.Hfohx9ZqTADi",
+      "resumeFile": null,
+      "avatarFile": null,
+      "isVerified": false,
+      "isActive": true
+    },
+    {
+      "id": "16",
+      "serviceIds": [
+        "18"
+      ],
+      "name": "Jack Turner",
+      "contact": "+1 (555) 678-9012",
+      "description": "Landscaping designer for residential gardens.",
+      "password": "$2b$10$in0XJixoe9tx0tNF3o8DTOfgdFu/yc32LpM6M3sRf/sCjxyrDqYV2",
+      "resumeFile": null,
+      "avatarFile": null,
+      "isVerified": false,
+      "isActive": true
+    },
+    {
+      "id": "17",
+      "serviceIds": [
+        "19"
+      ],
+      "name": "Amelia Parker",
+      "contact": "+1 (555) 789-0123",
+      "description": "Personal trainer focused on weight loss and strength.",
+      "password": "$2b$10$in0XJixoe9tx0tNF3o8DTOq9Wlx2fxBzKPw8ubCmf.NsZmDnW5NLG",
+      "resumeFile": null,
+      "avatarFile": null,
+      "isVerified": false,
+      "isActive": true
+    },
+    {
+      "id": "18",
+      "serviceIds": [
+        "20"
+      ],
+      "name": "Henry Young",
+      "contact": "+1 (555) 890-1234",
+      "description": "Yoga instructor with 8 years of experience.",
+      "password": "$2b$10$in0XJixoe9tx0tNF3o8DTOxlhMX9W3NY2JkFwxxrZv/phvkpgxrIq",
+      "resumeFile": null,
+      "avatarFile": null,
+      "isVerified": false,
+      "isActive": true
+    },
+    {
+      "id": "20",
+      "serviceIds": [
+        "22"
+      ],
+      "name": "Benjamin Hill",
+      "contact": "+1 (555) 012-3456",
+      "description": "Caterer specializing in gourmet and vegan menus.",
+      "password": "$2b$10$in0XJixoe9tx0tNF3o8DTOh8A/Tpi/S9x55xciMXVZOnAwfcE3CB6",
+      "resumeFile": null,
+      "avatarFile": null,
+      "isVerified": false,
+      "isActive": true
+    },
+    {
+      "id": "ae37",
+      "serviceIds": [
+        "19",
+        "20"
+      ],
+      "name": "asdfgh",
+      "contact": "45246411",
+      "password": "$2b$10$l60Sshuob5Dz0mLucJJUPOkTrhf5rOfSL/a7hrpBw43SY.Vz9pYOm",
+      "description": "qwerty",
+      "avatarFile": null,
+      "resumeFile": null,
+      "isVerified": false,
+      "isActive": false
+    },
+    {
+      "id": "99c6",
+      "serviceIds": [
+        "4",
+        "5"
+      ],
+      "name": "Aisha",
+      "contact": "+66545465",
+      "password": "$2b$10$ik7ZIHOUR2hHjKh/zeVp8.0F1BmQQfgNH4wqAPP/uSL3ALcx2haTW",
+      "description": "someone мощный пипл",
+      "avatarFile": "avatars/avatar-1746037686032-393080336.jpg",
+      "resumeFile": null,
+      "isVerified": false,
+      "isActive": true
+    },
+    {
+      "id": "67ca",
+      "serviceIds": [
+        "11",
+        "12"
+      ],
+      "name": "Azamat",
+      "contact": "+1 (555) 999-1111",
+      "password": "$2b$10$ozX2xaZ5IlgCFTKBINmyfep.bQPd/65rKsU.7RFy2RWe81Z./VrDG",
+      "description": "zczczcx zczczx",
+      "avatarFile": "avatars/a.jpg",
+      "resumeFile": null,
+      "isVerified": false,
+      "isActive": true
+    },
+    {
+      "id": "26571",
+      "name": "риотл",
+      "contact": "65465456465",
+      "password": "$2b$10$0qnBW1vR3NFa8ecaZeJRuOUTYbS9bNygoOnfI9/FLI5d3Bz7o/Vs.",
+      "description": "всамнпиргто",
+      "serviceIds": [
+        "7",
+        "8"
+      ],
+      "avatarFile": null,
+      "resumeFile": null,
+      "isVerified": false,
+      "isActive": false
+    },
+    {
+      "id": "24",
+      "name": "efrgb",
+      "contact": "111111111",
+      "password": "$2b$10$DofRHJPifrobhVS8Po48Xe/6AMVhTpUGoh4ElfggFz3aiMaBqaWhG",
+      "description": "rftykopl;",
+      "serviceIds": [
+        "15"
+      ],
+      "avatarFile": null,
+      "resumeFile": "resumes/resume-1745995437025-678571319.docx",
+      "isVerified": true,
+      "isActive": true
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "Alice",
+      "password": "$2b$10$in0XJixoe9tx0tNF3o8DTOABr4zPGJPRbckrgIY/9Wlia1KUev/Ba",
+      "contact": "+1 (555) 100-0001"
+    },
+    {
+      "id": "2",
+      "name": "Bob",
+      "password": "$2b$10$in0XJixoe9tx0tNF3o8DTO8Ot69Js4sA6dIB3WqZtF7us8ErRpICG",
+      "contact": "+1 (555) 100-0002"
+    },
+    {
+      "id": "3",
+      "name": "Charlie",
+      "password": "$2b$10$in0XJixoe9tx0tNF3o8DTOPHc/xWR8YbyKjb5Lt7TZcskEeNuyzFy",
+      "contact": "+1 (555) 100-0003"
+    },
+    {
+      "id": "4",
+      "name": "Diana",
+      "password": "$2b$10$in0XJixoe9tx0tNF3o8DTOwV.cGPV6BNONctGM9HcGAem3a2A5.1C",
+      "contact": "+1 (555) 100-0004"
+    },
+    {
+      "id": "a112",
+      "name": "asdfgh",
+      "contact": "452378584",
+      "password": "$2b$10$n4G2DSrRkErzV1XnRsR0qe9ca1qeNsNTovFPtFeqTDvabcGraFqda"
+    },
+    {
+      "id": "b287",
+      "name": "qqwert",
+      "contact": "12345678",
+      "password": "$2b$10$4l8pO1xcX454Kmt9qws1nuL9ajq482k5JvjONbYyEgnxwEDMEy05e"
+    },
+    {
+      "id": "45704",
+      "name": "ваыпы",
+      "contact": "65465456465",
+      "password": "$2b$10$MF7aUd877oFtnVbAZI.SZONYVl9mU9MyNNxO5kG7vT5zKC5yJSl0u"
+    },
+    {
+      "id": "8",
+      "name": "csvh",
+      "contact": "111111111",
+      "password": "$2b$10$5x1Eors7wpbHVU4GRS6nR.RCg3WJB7cH7IUpIwh9serJ8sF41kNlW"
+    },
+    {
+      "id": "24",
+      "name": "efrgb",
+      "contact": "111111111",
+      "password": "$2b$10$DofRHJPifrobhVS8Po48Xe/6AMVhTpUGoh4ElfggFz3aiMaBqaWhG"
+    },
+    {
+      "id": "10",
+      "name": "asdsfjkdsasdfghj",
+      "contact": "99989898",
+      "password": "$2b$10$02xMcIB9tYyh6cYF5I5c7ezW/rKXkAWN5LU6VW8dRssO9NzG85qbi"
+    }
+  ],
+  "admin": [
+    {
+      "id": "1",
+      "name": "AdminUser",
+      "password": "$2b$10$in0XJixoe9tx0tNF3o8DTO5ZuEBCPamE79cNz4vOyHiz7m5EYPlci",
+      "contact": "+1 (555) 999-0000"
+    }
+  ],
+  "moderators": [
+    {
+      "id": "1",
+      "name": "Moderator",
+      "password": "$2b$10$2BEiFnyp1ZdUic7zfggc..Kjdo4IBHqt2v7W.GPnX6MSCI9cwwDly",
+      "contact": "+1 (555) 999-1112"
+    }
+  ],
+  "orders": [
+    {
+      "id": "1",
+      "userId": "1",
+      "specialistId": "1",
+      "description": "Need drywall installation in my living room.",
+      "status": "Pending",
+      "createdAt": "2025-04-30T10:00:00Z"
+    },
+    {
+      "id": "2",
+      "userId": "8",
+      "specialistId": "99c6",
+      "description": "ауакаукуауа",
+      "status": "Completed",
+      "createdAt": "2025-04-30T14:03:10.571Z",
+      "hasReviewed": true
+    },
+    {
+      "id": "3",
+      "userId": "8",
+      "specialistId": "99c6",
+      "description": "вуаен",
+      "status": "Completed",
+      "createdAt": "2025-04-30T15:12:14.965Z"
+    },
+    {
+      "id": "4",
+      "userId": "8",
+      "specialistId": "99c6",
+      "description": "dsdvzvvd",
+      "status": "Completed",
+      "createdAt": "2025-04-30T15:26:22.810Z"
+    },
+    {
+      "id": "5",
+      "userId": "8",
+      "specialistId": "99c6",
+      "description": "ыфваргнлщуцауегл",
+      "status": "Declined",
+      "createdAt": "2025-04-30T15:43:42.535Z"
+    },
+    {
+      "id": "6",
+      "userId": "10",
+      "specialistId": "67ca",
+      "description": "цйуапегшд",
+      "status": "Pending",
+      "createdAt": "2025-05-01T06:12:00.575Z"
+    },
+    {
+      "id": "7",
+      "userId": "10",
+      "specialistId": "99c6",
+      "description": "sdfrgthuil",
+      "status": "Completed",
+      "createdAt": "2025-05-01T08:44:08.176Z",
+      "hasReviewed": false,
+      "hasRatedUser": false
+    },
+    {
+      "id": "8",
+      "userId": "10",
+      "specialistId": "99c6",
+      "description": "frfgthio;",
+      "status": "Completed",
+      "createdAt": "2025-05-01T08:57:47.700Z",
+      "hasReviewed": false,
+      "hasRatedUser": true
+    },
+    {
+      "id": "9",
+      "userId": "8",
+      "specialistId": "14",
+      "description": "can u call me 51651546",
+      "status": "Completed",
+      "createdAt": "2025-05-01T09:05:04.682Z",
+      "hasReviewed": true,
+      "hasRatedUser": true
+    }
+  ],
+  "reviews": [
+    {
+      "id": "1",
+      "specialistId": "1",
+      "userId": "8",
+      "rating": 4,
+      "comment": "Great work on the drywall installation!",
+      "createdAt": "2025-04-30T21:00:00.000Z",
+      "isHidden": true
+    },
+    {
+      "id": "2",
+      "specialistId": "99c6",
+      "userId": "8",
+      "rating": 4,
+      "comment": "cdvfbgrnioedveftu'oiqsxecryn'edwgt;unybtvefcdwx",
+      "createdAt": "2025-05-01T09:02:39.831Z"
+    },
+    {
+      "id": "3",
+      "specialistId": "14",
+      "userId": "8",
+      "rating": 5,
+      "comment": "perfect",
+      "createdAt": "2025-05-01T09:06:06.988Z"
+    }
+  ],
+  "userRatings": [
+    {
+      "id": "1",
+      "userId": "1",
+      "specialistId": "1",
+      "rating": 4,
+      "createdAt": "2025-05-01T13:00:00Z"
+    },
+    {
+      "id": "2",
+      "userId": "10",
+      "specialistId": "99c6",
+      "rating": 5,
+      "createdAt": "2025-05-01T08:58:17.769Z"
+    },
+    {
+      "id": "3",
+      "userId": "8",
+      "specialistId": "14",
+      "rating": 4,
+      "createdAt": "2025-05-01T09:05:44.022Z"
+    }
+  ]
+}
