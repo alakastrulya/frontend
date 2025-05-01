@@ -1,0 +1,49 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400; /* Чуть тяжелее для читаемости */
+  font-style: normal;
+  background-color: #ffffff; /* Белый фон, как у Kaspi */
+}
+
+header {
+  height: 50px;
+  display: flex;
+  padding: 0 2rem;
+  margin-top: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: none; /* Убираем границу для чистоты */
+  background: #ffffff; /* Белый фон для шапки */
+}
+
+h1 {
+  color: #000000; /* Черный для заголовков, как у Kaspi */
+  margin-top: 3rem;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 700; /* Жирный шрифт для заголовков */
+}
+
+h4 {
+  color: #333333; /* Чуть светлее для подзаголовков */
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.intro-text {
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+header {
+  height: 50px;
+  display: flex;
+  padding: 0 2rem;
+  margin-top: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffffff; /* Белый фон */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Легкая тень, как у Kaspi */
+}
